@@ -1,0 +1,226 @@
+# ==================================
+# CREDENTIALS AND SECRETS - CRITICAL
+# ==================================
+*.env
+.env
+.env.*
+**/config/credentials.*
+**/secrets/
+*.key
+*.pem
+*.pfx
+*.p12
+**/api_keys.*
+**/credentials.*
+**/auth.*
+*.keystore
+*.jks
+
+# Common secret file patterns
+secret*
+*secret*
+*token*
+*password*
+*passwd*
+
+# ==================================
+# DATABASE FILES
+# ==================================
+*.db
+*.sqlite
+*.sqlite3
+*.mdb
+*.accdb
+*.sql
+**/dumps/
+**/backups/*.sql
+
+# ==================================
+# PERSONAL INFORMATION
+# ==================================
+**/personal/
+**/private/
+student_data.*
+grades.*
+contact_info.*
+*_personal.*
+
+# ==================================
+# API KEYS AND SERVICE CREDENTIALS
+# ==================================
+# AWS
+**/aws/credentials
+.aws/
+**/boto/
+
+# Google Cloud
+**/gcloud/
+service-account*.json
+*-key.json
+
+# Firebase
+firebase-config.js
+firebaseConfig.js
+
+# OpenAI and AI Services
+openai_key.*
+anthropic_key.*
+
+# ==================================
+# CONFIGURATION FILES WITH SECRETS
+# ==================================
+config.json
+config.yml
+config.yaml
+secrets.json
+secrets.yml
+settings.local.*
+.config
+
+# ==================================
+# IDE AND EDITOR FILES
+# ==================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+*.sublime-project
+*.sublime-workspace
+
+# ==================================
+# PROGRAMMING LANGUAGE SPECIFICS
+# ==================================
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+*.egg-info/
+.pytest_cache/
+.coverage
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm
+package-lock.json
+yarn.lock
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+target/
+build/
+
+# C/C++
+*.o
+*.out
+*.exe
+*.dll
+*.so
+*.dylib
+
+# .NET
+bin/
+obj/
+*.dll
+*.exe
+*.pdb
+
+# ==================================
+# LARGE FILES AND MEDIA
+# ==================================
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.iso
+*.dmg
+
+# Large data files
+*.csv.gz
+*.parquet
+**/large_datasets/
+
+# ==================================
+# TEMPORARY AND BUILD FILES
+# ==================================
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+**/tmp/
+**/temp/
+**/cache/
+**/logs/
+dist/
+build/
+
+# ==================================
+# BACKUP FILES
+# ==================================
+*.backup
+*~
+*.orig
+
+# ==================================
+# JUPYTER NOTEBOOKS CHECKPOINTS
+# ==================================
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ==================================
+# DOCKER SENSITIVE FILES
+# ==================================
+docker-compose.override.yml
+.dockerignore
+
+# ==================================
+# SYSTEM AND OS FILES
+# ==================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ==================================
+# CERTIFICATES AND KEYS
+# ==================================
+*.crt
+*.cer
+*.der
+*.pem
+*.key
+*.pub
+**/certificates/
+**/ssl/
+
+# ==================================
+# PROJECT-SPECIFIC
+# ==================================
+# Add any project-specific files to ignore below
+# Example:
+# data/raw/
+# models/trained/
